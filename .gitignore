@@ -19,6 +19,136 @@
 *.tar.gz
 *.rar
 
+# Java
+*.class
+*.jar
+*.war
+*.ear
+/target/
+/build/
+
+# Maven
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/pom.xml.next
+/release.properties
+
+# Gradle
+/.gradle/
+/build/
+/out/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+/.settings/
+/.classpath
+/.project
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Node.js 依赖包
+/node_modules/
+
+# 生产构建输出
+/dist/
+/build/
+
+# 临时文件
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和 IDE 配置
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# SASS/SCSS 缓存
+.sass-cache/
+
+# Parcel-bundler cache (如果使用 Parcel)
+.cache/
+.parcel-cache/
+
+# Coverage 目录（代码覆盖率报告）
+/coverage/
+
+# TypeScript 缓存
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Yarn v2/v3
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# pnpm
+.pnp.*
+.pnpm-debug.log
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac 系统文件
+.DS_Store
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+
+# Linux 系统文件
+*~
+
+# 其他可能的忽略项
+# 如果使用 Prettier，可以忽略其缓存文件
+.prettierignore
+
+# 如果使用 ESLint，可以忽略其缓存文件
+.eslintcache
+
+# 如果使用 Jest，可以忽略其缓存
+/jest-cache/
+
+
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
