@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+}
+
+.comBtn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.2);
+    padding: 0.3em 0.9em;
+    font-size: 0.9em;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.comBtn:active{
+    transform: scale(0.85);
+}
+
+.comBtn:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.comBtn:focus,
+.comBtn:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.title{
+    text-align: center;
+    margin-top: 12vh;
+    margin-bottom: 3vh;
+}
+
+form{
+    box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+form:hover{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* 改变input聚焦时的边框颜色 */
+input.form-control:focus {
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+
