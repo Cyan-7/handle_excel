@@ -49,12 +49,12 @@ frontend/
 │   │   └── css/
 │   │       └── common.css
 │   ├── components/
-│   │   └── [Your Components]
+│   │   └── [Components]
 │   ├── main.ts
 │   ├── router/
-│   │   └── [Your Routes]
+│   │   └── [Routes]
 │   └── store/
-│       └── [Your Store]
+│       └── [Store]
 ├── public/
 │   └── index.html
 ├── package.json
@@ -70,7 +70,7 @@ backend/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/
-│   │   │       └── yourpackage/
+│   │   │       └── handle_excel/
 │   │   │           ├── bean/
 │   │   │           │   ├── Class.java
 │   │   │           │   ├── Course.java
