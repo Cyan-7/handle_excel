@@ -59,6 +59,27 @@ async function handle() {
   <div class="container" style="height: 100vh;">
     <h3 class="title fw-semibold">处理Excel</h3>
     <form class="form-control d-flex flex-column justify-content-center" style="width: 30vw; margin: 0 auto; transition: all 0.5s">
+
+      <span class="form-control fw-semibold mt-3" style="border: none">起始列</span>
+      <div class="input-group mt-1">
+        <input class="form-control" id="startColumn" value="C">
+      </div>
+
+      <span class="form-control fw-semibold mt-3" style="border: none">末列</span>
+      <div class="input-group mt-1">
+        <input class="form-control" id="startColumn" value="L">
+      </div>
+
+      <span class="form-control fw-semibold mt-3" style="border: none">起始行</span>
+      <div class="input-group mt-1">
+        <input class="form-control" id="startColumn" value="2">
+      </div>
+
+      <span class="form-control fw-semibold mt-3" style="border: none">末行</span>
+      <div class="input-group mt-1">
+        <input class="form-control" id="startColumn" value="26">
+      </div>
+
       <span class="form-control fw-semibold mt-3" style="border: none">上传文件</span>
       <div class="input-group mt-1">
         <input type="file" class="form-control" id="inputGroupFile02" @change="fileChange">
