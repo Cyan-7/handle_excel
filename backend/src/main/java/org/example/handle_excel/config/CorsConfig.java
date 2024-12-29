@@ -28,7 +28,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // 允许所有路径
-                        .allowedOrigins("http://localhost:5173") // 允许的来源
+                        .allowedOrigins("http://localhost:5174") // 允许的来源
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // 允许的 HTTP 方法
                         .allowedHeaders("*") // 允许的请求头
                         .allowCredentials(true); // 是否允许发送凭证（如 Cookies）
